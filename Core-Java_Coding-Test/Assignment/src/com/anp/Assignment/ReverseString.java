@@ -22,6 +22,8 @@ public class ReverseString { // class
 			}
 			
 			System.out.println("Reversed String: " + reversedString.toString());
+		}catch(NullPointerException e) {
+			System.out.println("Error occured:"+e.getMessage());
 		}
 		catch (Exception e) {
 			System.out.println("An error occured:" +e.getMessage());
